@@ -24,9 +24,9 @@ mkdir -p $CACHE_DIR/$ARCHIVE_NAME
 mkdir -p $BUILD_DIR/vendor
 tar jxf $CACHE_DIR/$FILE_NAME -C $CACHE_DIR
 
-wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz
+wget https://github.com/mozilla/geckodriver/releases/download/v0.19.0/geckodriver-v0.19.0-linux64.tar.gz
 mkdir -p vendor/gecko
-tar -C vendor/gecko -xvf geckodriver-v0.18.0-linux64.tar.gz
+tar -C vendor/gecko -xvf geckodriver-v0.19.0-linux64.tar.gz
 
 
 mv $CACHE_DIR/$ARCHIVE_NAME $BUILD_DIR/vendor/phantomjs
