@@ -3,8 +3,8 @@
 cat << EOF
 ---
 config_vars:
-  PATH: "/usr/local/bin:/usr/bin:/bin:/app/vendor/phantomjs/bin:/app/vendor/gecko"
+  PATH: "/usr/local/bin:/usr/bin:/bin:/app/vendor/gecko"
   LD_LIBRARY_PATH: "/usr/local/lib:/usr/lib:/lib:/app/vendor/phantomjs/lib"
 default_process_types:
-  console: "vendor/phantomjs/bin/phantomjs"
+  console: "vendor/gecko"
 EOF
